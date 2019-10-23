@@ -1,0 +1,13 @@
+nav h1 {
+    text-align: center;
+}
+
+.img-product {
+    width: 300px;
+}
+
+.black-border-thin {
+    border-color: black;
+    border-radius: 35px;
+    border-style: solid;
+}
