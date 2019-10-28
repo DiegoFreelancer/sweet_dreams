@@ -1,13 +1,31 @@
 nav h1 {
     text-align: center;
+    font-size: 40px
+}
+
+nav {
+    background-color:aqua;
+    padding-top: 10px;
+    margin-top: -7px;
 }
 
 .img-product {
-    width: 300px;
+    border-color: antiquewhite;
+    border-radius: 25%;
+    border-style: solid;
 }
 
-.black-border-thin {
+/* .black-border-thin {
     border-color: black;
     border-radius: 35px;
     border-style: solid;
+} */
+
+.align-center {
+    text-align: center;
+}
+
+.footer {
+    height: 200px;
+    background-color: aqua;
 }
