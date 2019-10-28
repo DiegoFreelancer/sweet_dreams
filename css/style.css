@@ -10,7 +10,8 @@ nav {
 }
 
 .img-product {
-    border-color: antiquewhite;
+    border-width: 4px;
+    border-color: darkmagenta;
     border-radius: 25%;
     border-style: solid;
 }
@@ -23,9 +24,87 @@ nav {
 
 .align-center {
     text-align: center;
+    /* text-decoration: ; */
+}
+
+.about-description {
+    font-size: 20px;
+    text-align: center;
+
 }
 
 .footer {
     height: 200px;
     background-color: aqua;
 }
+
+/* horizontal navigation bar */
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    /* display: block; */
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: #F609AA;
+  }
+
+.active {
+    background-color: #F609AA;
+  }
+
+/* li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  } */
+
+/* vertical navigation bar
+
+To build a vertical navigation bar, you can style the <a> elements inside the list, in addition to the code above:
+Example 
+
+A partir de aquí, el código pordría ser utilizado para una web responsive*/
+
+/* ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 60px;
+    border: 1px solid #555;
+}
+
+li a {
+  display: block;
+}  */
+
+/* Active/Current Navigation Link
+
+Add an "active" class to the current link to let the user know which page he/she is on:
+
+Example
+.active {
+  background-color: #4CAF50;
+  color: white;
+}  */
