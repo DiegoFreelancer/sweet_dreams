@@ -4,9 +4,13 @@ nav h1 {
 }
 
 nav {
-    background-color:aqua;
+    background-color:#0FF;
     padding-top: 10px;
     margin-top: -7px;
+}
+
+h2 {
+    font-family: 'McLaren', sans-serif ;
 }
 
 .img-product {
@@ -16,11 +20,49 @@ nav {
     border-style: solid;
 }
 
-/* .black-border-thin {
-    border-color: black;
-    border-radius: 35px;
-    border-style: solid;
-} */
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background-color: #3F60A5;
+}
+.icon-instagram {
+    background-color: #d35400;
+}
+
+.icon-whatsapp {
+    background-color: #44bd32;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
 
 .align-center {
     text-align: center;
@@ -35,10 +77,11 @@ nav {
 
 .footer {
     height: 200px;
-    background-color: aqua;
+    background-color: #0FF;
 }
 
 /* horizontal navigation bar */
+
 
 ul {
     list-style-type: none;
@@ -64,10 +107,6 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     color: #F609AA;
-  }
-
-.active {
-    background-color: #F609AA;
   }
 
 /* li {
