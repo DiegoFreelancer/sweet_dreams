@@ -9,7 +9,7 @@ nav {
     margin-top: -7px;
 }
 
-h2 {
+h2 , nav, footer, p{
     font-family: 'McLaren', sans-serif ;
 }
 
