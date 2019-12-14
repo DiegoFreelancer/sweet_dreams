@@ -9,9 +9,14 @@ nav {
     margin-top: -7px;
 }
 
-h2 {
+h2 , nav, footer, p{
     font-family: 'McLaren', sans-serif ;
 }
+
+/* .adorable-baby {
+    width: 800;
+    height: 500;
+} */
 
 .img-product {
     border-width: 4px;
@@ -19,6 +24,8 @@ h2 {
     border-radius: 25%;
     border-style: solid;
 }
+
+/*************** Inicio de barra de redes sociales ********************/
 
 .social-bar {
     position: fixed;
@@ -63,6 +70,8 @@ h2 {
     border-radius: 1rem 0 0 1rem;
     box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
+
+/************************ Final de barra de redes sociales **********************/
 
 .align-center {
     text-align: center;
