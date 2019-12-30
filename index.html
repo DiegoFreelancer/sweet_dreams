@@ -17,25 +17,28 @@
     <title>Sweet Dreams | ¡Todo para tu bebe!</title>
 </head>
 <body>
-
-    <nav>
+    <header>
         <h1 class="align-center">¡Bienvenidos a Sweet Dreams!</h1>
-        <ul class="align-center">
-            <li><a href="#aboutUs">Home</a></li>
-            <li><a href="#products">Productos</a></li>
-            <!-- <li><a href="#contact">Contacto</a></li> -->
-            <!-- <a href="#home"><li>Inicio</li></a> -->
-        </ul>
-    </nav>
+        <div class="contenedor">
+            <nav class="menu">
+                <ul class="align-center">
+                    <li><a href="home">Home</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <!-- <li><a href="#contact">Contacto</a></li> -->
+                    <!-- <a href="#home"><li>Inicio</li></a> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main>
-        <section id="aboutUs" class="nosotros">
+        <section id="home" class="nosotros">
             <h2>Sobre nosotros</h2>
-            <figure class="babyContainer">
-                <img class="cute-baby" src="img/cute-baby/adorable-baby-blanket.jpg" alt="cute-baby.jpg" height="500" width="1100">
-            </figure>
             <p class="about-description">¡Hola! Somos <strong>Sweet Dreams</strong> y te damos la bienvenida a nuestro sitio web, 
                 donde vas a encontrar nuestros productos para tu bebé, desde almohadones 
                 personalizados, arte y deco, y muchos accesorios para los mas chiquitos.👶 ¡Hacemos ventas por mayor y menor!</p>
+                        <figure class="babyContainer">
+                            <img class="cute-baby" src="img/cute-baby/adorable-baby-blanket.jpg" alt="cute-baby.jpg" height="500" width="1100">
+                        </figure>
             <hr>        
         </section>
 
@@ -49,7 +52,7 @@
                     <img class="img-product black-border-thin" width="300" src="img/cambiadores/cambiadores.jpg" alt="cambiadores.jpg" title="cambiadores">
                     <img class="img-product black-border-thin" width="300" src="img/porta-chupetes/portachupetes.jpg" alt="porta-chupetes.jpg" title="portachupetes">
                 </figure>
-            <!-- <hr> -->
+            <hr>
         </section>
 
         <section id="combos" class="productos">
@@ -79,6 +82,7 @@
     <footer class="footer align-center">
         Sweet Dreams - Derechos Reservados 2017-2019 &copy;
     </footer>
-    
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
