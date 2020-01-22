@@ -78,7 +78,7 @@ h2 , nav, footer, p, h3, h1{
 }
 
 .footer {
-    height: 200px;
+    /* height: 200px; */
     background-color: #0FF;
 }
 
