@@ -1,3 +1,7 @@
+body {
+    background: url(img/fondo/let-there-be-sun.png);
+}
+
 nav h1 {
     text-align: center;
     font-size: 40px
@@ -20,9 +24,9 @@ h2 , nav, footer, p, h3, h1{
     border-style: solid;
 }
 
-.nosotros, .productos, .contacto {
-    background: url(img/fondo/pixel-heart.png);
-}
+/* .nosotros, .productos, .contacto {
+    background: url(img/fondo/let-there-be-sun.png);
+} */
 
 .babyContainer img {
 	width: 100%;
