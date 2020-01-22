@@ -2,7 +2,6 @@ Requisitos de página web Sweet Dreams
 
 Inicio
 Quienes Somos
-Logo en H1 (dentro de la barra nav)
 
 
 carrito de compras
@@ -10,8 +9,5 @@ O
 opción para mandar mensaje para acordar envío
 
 whatsapp: 1165060084
+Instagram: pillows_sweetdreams
 Facebook: https://www.facebook.com/p.sweetdreams.16
-background: #2E406E
-
-Instagram: pillows_sweetdreams (https://www.instagram.com/pillows_sweetdreams/)
-background: #3F60A5
