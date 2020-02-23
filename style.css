@@ -1,5 +1,7 @@
 body {
     background: url(img/fondo/let-there-be-sun.png);
+    /* padding: 0px 0px;
+    margin: 0px 0px; */
 }
 
 nav h1 {
@@ -85,7 +87,6 @@ h2 , nav, footer, p, h3, h1{
 
 .align-center {
     text-align: center;
-    /* text-decoration: ; */
 }
 
 .about-description {
@@ -97,6 +98,15 @@ h2 , nav, footer, p, h3, h1{
 .footer {
     /* height: 200px; */
     background-color: #0FF;
+}
+
+.contacto a h3{
+    display: inline;
+    margin: 0px 5px;
+}
+
+.contacto a {
+    text-decoration: none;
 }
 
 /* horizontal navigation bar */
