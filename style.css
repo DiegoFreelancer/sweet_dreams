@@ -19,6 +19,10 @@ h2 , nav, footer, p, h3, h1{
     font-family: 'McLaren', sans-serif ;
 }
 
+.padding-top-bot {
+    padding: 10px;
+}
+
 .img-product {
     border-width: 4px;
     border-color:#0FF;
@@ -37,51 +41,6 @@ h2 , nav, footer, p, h3, h1{
     border-style: solid;
 }
 
-/* .social-bar {
-    position: fixed;
-    right: 0;
-    top: 35%;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    z-index: 100;
-}
-
-.icon {
-    color: white;
-    text-decoration: none;
-    padding: .7rem;
-    display: flex;
-    transition: all .5s;
-}
-
-.icon-facebook {
-    background-color: #3F60A5;
-}
-.icon-instagram {
-    background-color: #d35400;
-}
-
-.icon-whatsapp {
-    background-color: #44bd32;
-}
-
-.icon:first-child {
-    border-radius: 1rem 0 0 0;
-}
-
-.icon:last-child {
-    border-radius: 0 0 0 1rem;
-}
-
-.icon:hover {
-    padding-right: 3rem;
-    border-radius: 1rem 0 0 1rem;
-    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
-} */
-/************************ Final de barra de redes sociales **********************
-*********************************************************************************/
 
 .align-center {
     text-align: center;
