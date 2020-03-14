@@ -91,10 +91,6 @@ h2 , nav, footer, p, h3, h1{
 
 }
 
-.footer {
-    height: 10%;
-    background-color: #0FF;
-}
 
 .contacto a h3{
     display: inline;
@@ -116,6 +112,14 @@ ul {
     top: 0;
 }
 
+.footer {
+    height: 10%;
+    background-color: #0FF;
+}
+
+footer .contact-header, .social-media {
+    padding: 10px;
+}
 
 /* ***************************************************************** */
 
