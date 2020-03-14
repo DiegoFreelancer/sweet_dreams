@@ -1,18 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background: url(img/fondo/let-there-be-sun.png);
     /* padding: 0px 0px;
     margin: 0px 0px; */
 }
 
+h1 {
+    margin: 20px;
+}
+
 nav h1 {
     text-align: center;
-    font-size: 40px
+    font-size: 40px;
 }
 
 nav {
     background-color:#0FF;
-    padding-top: 10px;
-    margin-top: -7px;
+}
+
+li {
+    display: inline;
+}
+
+/* Menú que cambia los colores de Home y Productos a violeta y */
+li a:hover {
+    color: #F609AA;
+    background-color: #9c88ff;
+}
+
+.contenedor li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 0px 25px;
 }
 
 h2 , nav, footer, p, h3, h1{
@@ -20,8 +46,21 @@ h2 , nav, footer, p, h3, h1{
 }
 
 .padding-top-bot {
-    padding: 10px;
+    padding: 30px;
 }
+
+.mini-margin {
+    margin: 5px;
+}
+
+/* .margin-left {
+    margin-left: 10px;
+} */
+
+.productsContainer, .combosContainer {
+    margin-left: 5%;
+}
+
 
 .img-product {
     border-width: 4px;
@@ -53,7 +92,7 @@ h2 , nav, footer, p, h3, h1{
 }
 
 .footer {
-    /* height: 200px; */
+    height: 10%;
     background-color: #0FF;
 }
 
@@ -77,22 +116,7 @@ ul {
     top: 0;
 }
 
-li {
-    display: inline;
-}
 
-li a {
-    /* display: block; */
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Menú que cambia los colores de Home y Productos a violeta y */
-li a:hover {
-    color: #F609AA;
-  }
 /* ***************************************************************** */
 
 
