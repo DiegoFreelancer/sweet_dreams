@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(img/fondo/let-there-be-sun.png);
+    background: url(../img/fondo/let-there-be-sun.png);
     /* padding: 0px 0px;
     margin: 0px 0px; */
 }
@@ -26,20 +26,21 @@ li {
     display: inline;
 }
 
+.nav-container li a {
+    color: black;
+    display: inline-block;
+    margin: 0px 25px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
 /* Menú que cambia los colores de Home y Productos a violeta y */
 li a:hover {
     color: #F609AA;
     background-color: #9c88ff;
 }
 
-.contenedor li a {
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 25px;
-    margin: 0px 25px;
-}
 
 h2 , nav, footer, p, h3, h1{
     font-family: 'McLaren', sans-serif ;
