@@ -20,6 +20,7 @@ nav h1 {
 
 .nav-container {
     background-color:#0FF;
+    /* width: 80%; */
 }
 
 li {
@@ -29,8 +30,11 @@ li {
 .nav-container li a {
     color: black;
     display: inline-block;
-    margin: 0px 25px;
-    padding: 10px 25px;
+    margin: 0px 0px;
+    padding: 15px 15px;
+    /* Responsive Design start */
+    /* padding: 15px 20px; */
+    /* Responsive Design End */
     text-align: center;
     text-decoration: none;
 }
@@ -59,7 +63,10 @@ h2 , nav, footer, p, h3, h1{
 } */
 
 .productsContainer, .combosContainer {
-    margin-left: 7%;
+    /* Original, descomentar por el RD
+    margin-left: 7%; */
+    /* RD abajo */
+    margin-left: -3%;
 }
 
 
