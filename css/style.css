@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(img/fondo/let-there-be-sun.png);
+    background: url(../img/fondo/let-there-be-sun.png);
     /* padding: 0px 0px;
     margin: 0px 0px; */
 }
@@ -18,7 +18,7 @@ nav h1 {
     font-size: 40px;
 }
 
-nav {
+.nav-container {
     background-color:#0FF;
 }
 
@@ -37,7 +37,7 @@ li {
 
 /* Menú que cambia los colores de Home y Productos a violeta y */
 li a:hover {
-    color: #F609AA;
+    /* color: #F609AA; */
     background-color: #9c88ff;
 }
 
@@ -59,7 +59,7 @@ h2 , nav, footer, p, h3, h1{
 } */
 
 .productsContainer, .combosContainer {
-    margin-left: 5%;
+    margin-left: 7%;
 }
 
 
@@ -73,7 +73,8 @@ h2 , nav, footer, p, h3, h1{
 .babyContainer img {
 	width: 100%;
 	height: 478px;
-	display: block;
+    display: block;
+    margin-top: 20px;
 	margin-left: auto;
     margin-right: auto;
     border-color: rgb(122, 255, 255);
@@ -133,4 +134,10 @@ footer .contact-header, .social-media {
     top: 0;
     width: 100%;
     max-width: 1500px;
+}
+
+@media (max-width: 360px) {
+    .combos-container, .productsContainer {
+        margin-left: -3%;
+    }
 }
