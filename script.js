@@ -1,16 +1,17 @@
+// Función para pegar el menú a la parte de arriba del navegador
 $(document).ready(function()
 {
-    let altura = $('.menu').offset().top;
+    let altura = $('.nav-container').offset().top;
 
     $(window).on('scroll', function()
     {
         if ( $(window).scrollTop() > altura)
         {
-            $('.menu').addClass('menu-fixed');
+            $('.nav-container').addClass('menu-fixed');
         }
         else 
         {
-            $('.menu').removeClass('menu-fixed');
+            $('.nav-container').removeClass('menu-fixed');
         }
     });
 });
