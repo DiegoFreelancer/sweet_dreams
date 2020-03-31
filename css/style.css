@@ -30,7 +30,7 @@ li {
 .nav-container li a {
     color: black;
     display: inline-block;
-    margin: 0px 0px;
+    margin: 0px 50px;
     padding: 15px 15px;
     /* Responsive Design start */
     /* padding: 15px 20px; */
@@ -63,10 +63,10 @@ h2 , nav, footer, p, h3, h1{
 } */
 
 .productsContainer, .combosContainer {
-    /* Original, descomentar por el RD
-    margin-left: 7%; */
+    /* Original, descomentar por el RD */
+    margin-left: 7%; 
     /* RD abajo */
-    margin-left: -3%;
+    /* margin-left: -3%; */
 }
 
 
@@ -143,8 +143,38 @@ footer .contact-header, .social-media {
     max-width: 1500px;
 }
 
-@media (max-width: 360px) {
-    .combos-container, .productsContainer {
+@media (device-width: 360px) {
+    .combosContainer, .productsContainer {
         margin-left: -3%;
     }
+
+    .nav-container li a {
+        margin: 0px 0px;
+        padding: 15px 15px;
+    }
+
+    .nosotros p {
+        font-size: large;
+        /* width: 8vmin; */
+    }
+
+    /* .menu-fixed {
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        width: 100%;
+        max-width: 1500px;
+    } */
+
+    /* elemento hecho para detectar si funciona o no el RD */
+    /* h2 {
+        color: red;
+    } */
+
+    .babyContainer {
+        max-width: 100%;
+        height: auto;
+    }
+
 }
+  
