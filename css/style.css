@@ -158,13 +158,13 @@ footer .contact-header, .social-media {
         /* width: 8vmin; */
     }
 
-    .menu-fixed {
+    /* .menu-fixed {
         position: fixed;
         z-index: 1000;
         top: 0;
         width: 100%;
         max-width: 1500px;
-    }
+    } */
 
     /* elemento hecho para detectar si funciona o no el RD */
     /* h2 {
